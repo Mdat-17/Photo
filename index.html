@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mã QR mở camera điện thoại</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</head>
+<body>
+  <h2>📱 Quét mã QR để mở camera trước trên điện thoại</h2>
+  <div id="qrcode"></div>
+
+  <script>
+    // Đây là link thật mình đã host giúp bạn để test luôn
+    let cameraLink = "https://datminh2708.github.io/camera.html";
+    new QRCode(document.getElementById("qrcode"), cameraLink);
+  </script>
+</body>
+</html>
